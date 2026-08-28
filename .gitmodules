@@ -1,0 +1,9 @@
+[submodule "comment-service"]
+	path = comment-service
+	url = https://github.com/DiilaNa/Blog-Poster-Project-Service-COMMENTS.git
+[submodule "post-service"]
+	path = post-service
+	url = https://github.com/DiilaNa/Blog-Poster-Project-Service-POSTS.git
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/DiilaNa/Blog-Poster-Project-Service-USER.git
