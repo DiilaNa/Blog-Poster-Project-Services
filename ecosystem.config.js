@@ -1,6 +1,11 @@
 module.exports = {
   apps : [
     {
+      name   : "cloud-sql-auth-proxy",
+      script : "./cloud-sql-proxy ijse-eca-module:asia-south1:mysql ijse-eca-module:asia-south1:postgresql --private-i",
+      log_file: "./logs/cloud-sql-auth-proxy.log",
+    },
+    {
       name   : "comment-service",
       script : "java -jar ./comment-service/target/comment-service-1.0.0.jar",
       log_file: "./logs/comment-service.log",
