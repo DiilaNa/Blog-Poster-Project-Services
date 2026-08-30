@@ -53,6 +53,7 @@ jobs:
                   --source-disk=${{ env.VM_NAME }} \
                   --source-disk-zone=${{ env.ZONE }} \
                   --storage-location=${{ env.REGION }}
+              
 
           - name: Update the instance group with new image
             run: |
